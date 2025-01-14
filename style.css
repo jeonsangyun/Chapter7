@@ -9,3 +9,43 @@
     border-color: chocolate;
 }
 
+footer{
+    background-color: black;
+    color: white;
+}
+
+.first-line{
+    border-bottom: 1px solid #392d23;
+}
+
+.second-line a{
+    text-decoration: none;
+    color:white;
+}
+
+.third-line{       /*미디어쿼리 코드보다 위에 위치해 있어야함 */
+    display: none;
+    text-align: center;
+}
+
+
+@media screen and (max-width:48rem){
+    .first-line{
+        text-align: center;
+    }
+    .second-line{
+        padding-left:2rem;
+        padding-right: 2rem;
+        border-bottom: 1px solid #392d23;
+    }
+    .third-line {
+        display: block;
+    }
+    .first-line-img{
+        display: none;
+    }
+}
+
+.flag-img{
+    margin: 0 0.5rem;
+}
